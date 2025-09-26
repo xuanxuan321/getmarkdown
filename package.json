@@ -1,0 +1,28 @@
+{
+  "name": "github-markdown-extractor",
+  "version": "1.0.0",
+  "description": "从 GitHub 仓库提取所有 Markdown 文件的 Node.js 脚本",
+  "main": "extract-markdown.js",
+  "scripts": {
+    "start": "node extract-markdown.js",
+    "test": "node extract-markdown.js https://github.com/microsoft/markitdown"
+  },
+  "bin": {
+    "extract-markdown": "./extract-markdown.js"
+  },
+  "keywords": [
+    "github",
+    "markdown",
+    "extractor",
+    "cli",
+    "git"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "yargs-parser": "^22.0.0"
+  }
+}
